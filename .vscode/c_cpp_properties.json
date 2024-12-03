@@ -1,14 +1,15 @@
 {
   "configurations": [
     {
-      "name": "windows-gcc-x86",
+      "name": "windows-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "C:\\ProgramData\\mingw64\\mingw64\\include"
       ],
-      "compilerPath": "C:/MinGW/bin/gcc.exe",
+      "compilerPath": "C:/ProgramData/mingw64/mingw64/bin/gcc.exe",
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x86",
+      "intelliSenseMode": "windows-gcc-x64",
       "compilerArgs": [
         "-IC:\\Program Files\\OpenSSL-Win64\\include",
         "-LC:\\Program Files\\OpenSSL-Win64\\lib",

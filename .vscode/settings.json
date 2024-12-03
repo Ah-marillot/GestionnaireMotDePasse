@@ -37,7 +37,9 @@
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includePaths": [
+    "C:\\ProgramData\\mingw64\\mingw64\\include"
+  ],
   "C_Cpp_Runner.includeSearch": [
     "*",
     "**/*"
@@ -59,6 +61,7 @@
   "files.associations": {
     "string.h": "c",
     "stdlib.h": "c",
-    "hash_password": "c"
+    "hash_password": "c",
+    "evp.h": "c"
   }
 }
